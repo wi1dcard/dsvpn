@@ -13,3 +13,7 @@ jobs:
       - uses: actions/checkout@master
       - name: make
         run: make
+      - uses: actions/upload-artifact@master
+        with:
+          name: dsvpn
+          path: dsvpn
