@@ -1,5 +1,6 @@
 #ifndef os_H
 #define os_H 1
+#define NO_DEFAULT_ROUTES
 
 #include "vpn.h"
 
